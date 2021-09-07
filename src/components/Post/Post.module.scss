@@ -1,0 +1,32 @@
+.container {
+  margin: 3.125rem auto 0 auto;
+  max-width: 56.6rem;
+  width: 100%;
+
+  background-color: var(--white);
+  border-radius: 5px;
+
+  padding: 1.56rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  span {
+    color: var(--text);
+  }
+}
+
+.content {
+  span {
+    display: inline-block;
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: var(--title);
+    margin-bottom: 0.5rem;
+  }
+  p {
+    color: var(--text);
+  }
+}
