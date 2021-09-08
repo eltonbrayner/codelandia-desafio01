@@ -56,3 +56,9 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0px 2rem;
+  }
+}
